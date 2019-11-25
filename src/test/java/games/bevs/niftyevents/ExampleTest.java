@@ -1,7 +1,5 @@
 package games.bevs.niftyevents;
 
-//import games.bevs.niftyevents.demo.event.PurchaseEvent;
-//import games.bevs.niftyevents.demo.listeners.ShopListener;
 import org.junit.Test;
 
 public class ExampleTest
