@@ -10,6 +10,6 @@ public class Main
         System.out.println("Setting up...");
         EventManager eventManager = new EventManager();
         eventManager.registerEventListeners(new ShopListener());
-        eventManager.triggerEvents(new PurchaseEvent("Heath's Fish and Chips", "2 Chips", 1.00));
+        eventManager.triggerEvents(new PurchaseEvent("Heath's Fish and Chips", "2 Chips", 1.00)); //will make all registered events run
     }
 }

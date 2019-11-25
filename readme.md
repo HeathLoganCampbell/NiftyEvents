@@ -111,3 +111,10 @@ Setting up...
 PurchaseEvent] Shop Name: Heath's Fish and Chips
 ShopEvent] Shop Name: Heath's Fish and Chips
 ```
+
+### CheatSheet
+```
+@EventListener - on the top of your function with the only  paramter being the event you want to be the trigger
+EventManager.registerEventListeners - Register all the functions in the class with the @EventListener annotion
+EventManager.triggerEvents - call all listener classes that are registered to that event
+```
