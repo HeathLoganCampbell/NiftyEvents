@@ -1,6 +1,25 @@
 # NiftyEvents
 A small event management api in java, this supports event driven code :)
 
+## Include
+[We just use JitPack](https://jitpack.io/#HeathLoganCampbell/NiftyEvents/74179c6261)
+### Maven
+``` 
+    <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.HeathLoganCampbell</groupId>
+            <artifactId>NiftyEvents</artifactId>
+            <version>74179c6261</version>
+        </dependency>
+    </dependencies>
+```
 
 ## Example
 Lets say we are a large food chain that offers fish and chips,
